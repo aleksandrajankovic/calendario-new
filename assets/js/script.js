@@ -66,7 +66,7 @@ window.onload = () => {
     });
   }, 2000);
 
-  const today = new Date();
+  const today = new Date(2025,9,31);
   const currentMonth = today.getMonth();
   const currentYear = today.getFullYear();
 
@@ -161,7 +161,7 @@ function getPromotionForDate(date, promotionStartDate, promotionEndDate) {
 
 function updateCalendarStates(month, year) {
 
-  const today = new Date();
+  const today = new Date(2025,9,31);
   const target = $("#calendar .week .day");
 
   target.each(function () {
