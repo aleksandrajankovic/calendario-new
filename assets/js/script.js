@@ -148,7 +148,7 @@ function getPromotionForDate(date, promotionStartDate, promotionEndDate) {
   }
 
   if (date.getFullYear() === 2025 && date.getMonth() === 9) {
-    if (date.getDate() === 20 || date.getDate() === 21 || date.getDate() === 22 || date.getDate() === 23 || date.getDate() === 24 || date.getDate() === 25 ) {
+    if (date.getDate() === 20 || date.getDate() === 21 || date.getDate() === 22 || date.getDate() === 23 || date.getDate() === 24 || date.getDate() === 25 || date.getDate() === 26 || date.getDate() === 27 || date.getDate() === 28 || date.getDate() === 29 || date.getDate() === 30 || date.getDate() === 31 ) {
       return specialPromotions[date.getDate()];
     }
   }
